@@ -1,0 +1,167 @@
+2017-04-24 20:10:57 INFO  LogTimerTask:35 - init
+2017-04-24 20:10:57 INFO  ClassPathXmlApplicationContext:456 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Mon Apr 24 20:10:57 BST 2017]; root of context hierarchy
+2017-04-24 20:10:57 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-04-24 20:10:57 DEBUG DefaultDocumentLoader:72 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-04-24 20:10:57 DEBUG PluggableSchemaResolver:140 - Loading schema mappings from [META-INF/spring.schemas]
+2017-04-24 20:10:57 DEBUG PluggableSchemaResolver:146 - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd}
+2017-04-24 20:10:57 DEBUG PluggableSchemaResolver:118 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2017-04-24 20:10:57 DEBUG PluggableSchemaResolver:118 - Found XML schema [http://www.springframework.org/schema/context/spring-context-2.5.xsd] in classpath: org/springframework/context/config/spring-context-2.5.xsd
+2017-04-24 20:10:57 DEBUG PluggableSchemaResolver:118 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-2.5.xsd
+2017-04-24 20:10:57 DEBUG DefaultBeanDefinitionDocumentReader:87 - Loading bean definitions
+2017-04-24 20:10:57 DEBUG DefaultNamespaceHandlerResolver:156 - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-04-24 20:10:57 DEBUG PathMatchingResourcePatternResolver:552 - Looking for matching resources in directory tree [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen]
+2017-04-24 20:10:57 DEBUG PathMatchingResourcePatternResolver:614 - Searching directory [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen] for files matching pattern [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/**/*.class]
+2017-04-24 20:10:57 DEBUG PathMatchingResourcePatternResolver:614 - Searching directory [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/model] for files matching pattern [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/**/*.class]
+2017-04-24 20:10:57 DEBUG PathMatchingResourcePatternResolver:614 - Searching directory [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/core] for files matching pattern [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/**/*.class]
+2017-04-24 20:10:57 DEBUG PathMatchingResourcePatternResolver:353 - Resolved location pattern [classpath*:com/impe/test/log_gen/**/*.class] to resources [file [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/App.class], file [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/model/LogGen.class], file [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/model/LogConfiguration.class], file [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/model/LogConfigurationHardcoded.class], file [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/model/LogConfigurationDao.class], file [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/core/LogScheduler.class], file [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/core/LogTimerTask.class]]
+2017-04-24 20:10:57 DEBUG ClassPathBeanDefinitionScanner:220 - Identified candidate component class: file [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/App.class]
+2017-04-24 20:10:57 DEBUG ClassPathBeanDefinitionScanner:220 - Identified candidate component class: file [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/model/LogConfigurationDao.class]
+2017-04-24 20:10:57 DEBUG ClassPathBeanDefinitionScanner:220 - Identified candidate component class: file [/home/impe/workspace/default/log-gen/target/classes/com/impe/test/log_gen/core/LogScheduler.class]
+2017-04-24 20:10:57 DEBUG XmlBeanDefinitionReader:185 - Loaded 7 bean definitions from location pattern [applicationContext.xml]
+2017-04-24 20:10:57 DEBUG ClassPathXmlApplicationContext:470 - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: org.springframework.beans.factory.support.DefaultListableBeanFactory@6df97b55: defining beans [logGen,logConfigurationDao,logScheduler,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:214 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:214 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:214 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:214 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG ClassPathXmlApplicationContext:776 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@490ab905]
+2017-04-24 20:10:57 DEBUG ClassPathXmlApplicationContext:800 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@4566e5bd]
+2017-04-24 20:10:57 INFO  DefaultListableBeanFactory:555 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6df97b55: defining beans [logGen,logConfigurationDao,logScheduler,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:214 - Creating shared instance of singleton bean 'logGen'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'logGen'
+2017-04-24 20:10:57 DEBUG InjectionMetadata:59 - Found injected element on class [com.impe.test.log_gen.App]: AutowiredFieldElement for private com.impe.test.log_gen.model.LogConfigurationDao com.impe.test.log_gen.App.logConfigurationDao
+2017-04-24 20:10:57 DEBUG InjectionMetadata:59 - Found injected element on class [com.impe.test.log_gen.App]: AutowiredFieldElement for private com.impe.test.log_gen.core.LogScheduler com.impe.test.log_gen.App.logScheduler
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'logGen' to allow for resolving potential circular references
+2017-04-24 20:10:57 DEBUG InjectionMetadata:82 - Processing injected method of bean 'logGen': AutowiredFieldElement for private com.impe.test.log_gen.model.LogConfigurationDao com.impe.test.log_gen.App.logConfigurationDao
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:214 - Creating shared instance of singleton bean 'logConfigurationDao'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'logConfigurationDao'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'logConfigurationDao' to allow for resolving potential circular references
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'logConfigurationDao'
+2017-04-24 20:10:57 DEBUG AutowiredAnnotationBeanPostProcessor:420 - Autowiring by type from bean name 'logGen' to bean named 'logConfigurationDao'
+2017-04-24 20:10:57 DEBUG InjectionMetadata:82 - Processing injected method of bean 'logGen': AutowiredFieldElement for private com.impe.test.log_gen.core.LogScheduler com.impe.test.log_gen.App.logScheduler
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:214 - Creating shared instance of singleton bean 'logScheduler'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'logScheduler'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'logScheduler' to allow for resolving potential circular references
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'logScheduler'
+2017-04-24 20:10:57 DEBUG AutowiredAnnotationBeanPostProcessor:420 - Autowiring by type from bean name 'logGen' to bean named 'logScheduler'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'logGen'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:242 - Returning cached instance of singleton bean 'logConfigurationDao'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:242 - Returning cached instance of singleton bean 'logScheduler'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:242 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:242 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:242 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:242 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-24 20:10:57 DEBUG ClassPathXmlApplicationContext:827 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@544fe44c]
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:242 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-04-24 20:10:57 INFO  LogTimerTask:37 - 1
+2017-04-24 20:10:57 DEBUG DefaultListableBeanFactory:242 - Returning cached instance of singleton bean 'logGen'
+2017-04-24 20:10:57 INFO  LogTimerTask:39 - 2
+2017-04-24 20:10:57 INFO  LogTimerTask:29 - Series: 0 - Hello World!
+2017-04-24 20:10:57 WARN  LogTimerTask:32 - Series: 0 - Waning World!
+2017-04-24 20:10:57 ERROR LogTimerTask:35 - Series: 0 - Error World!
+	Multiline ..
+2017-04-24 20:10:58 WARN  LogTimerTask:32 - Series: 1 - Waning World!
+2017-04-24 20:10:58 ERROR LogTimerTask:35 - Series: 1 - Error World!
+	Multiline ..
+2017-04-24 20:10:59 WARN  LogTimerTask:32 - Series: 2 - Waning World!
+2017-04-24 20:11:00 ERROR LogTimerTask:35 - Series: 2 - Error World!
+	Multiline ..
+2017-04-24 20:11:00 INFO  LogTimerTask:29 - Series: 1 - Hello World!
+2017-04-24 20:11:00 WARN  LogTimerTask:32 - Series: 3 - Waning World!
+2017-04-24 20:11:01 ERROR LogTimerTask:35 - Series: 3 - Error World!
+	Multiline ..
+2017-04-24 20:11:01 WARN  LogTimerTask:32 - Series: 4 - Waning World!
+2017-04-24 20:11:02 ERROR LogTimerTask:35 - Series: 4 - Error World!
+	Multiline ..
+2017-04-24 20:11:02 WARN  LogTimerTask:32 - Series: 5 - Waning World!
+2017-04-24 20:11:03 WARN  LogTimerTask:32 - Series: 6 - Waning World!
+2017-04-24 20:11:03 INFO  LogTimerTask:29 - Series: 2 - Hello World!
+2017-04-24 20:11:03 ERROR LogTimerTask:35 - Series: 5 - Error World!
+	Multiline ..
+2017-04-24 20:11:04 WARN  LogTimerTask:32 - Series: 7 - Waning World!
+2017-04-24 20:11:05 ERROR LogTimerTask:35 - Series: 6 - Error World!
+	Multiline ..
+2017-04-24 20:11:05 WARN  LogTimerTask:32 - Series: 8 - Waning World!
+2017-04-24 20:11:06 ERROR LogTimerTask:35 - Series: 7 - Error World!
+	Multiline ..
+2017-04-24 20:11:06 INFO  LogTimerTask:29 - Series: 3 - Hello World!
+2017-04-24 20:11:06 WARN  LogTimerTask:32 - Series: 9 - Waning World!
+2017-04-24 20:11:07 ERROR LogTimerTask:35 - Series: 8 - Error World!
+	Multiline ..
+2017-04-24 20:11:07 WARN  LogTimerTask:32 - Series: 10 - Waning World!
+2017-04-24 20:11:08 WARN  LogTimerTask:32 - Series: 11 - Waning World!
+2017-04-24 20:11:08 ERROR LogTimerTask:35 - Series: 9 - Error World!
+	Multiline ..
+2017-04-24 20:11:09 WARN  LogTimerTask:32 - Series: 12 - Waning World!
+2017-04-24 20:11:09 INFO  LogTimerTask:29 - Series: 4 - Hello World!
+2017-04-24 20:11:09 ERROR LogTimerTask:35 - Series: 10 - Error World!
+	Multiline ..
+2017-04-24 20:11:10 WARN  LogTimerTask:32 - Series: 13 - Waning World!
+2017-04-24 20:11:11 ERROR LogTimerTask:35 - Series: 11 - Error World!
+	Multiline ..
+2017-04-24 20:11:11 WARN  LogTimerTask:32 - Series: 14 - Waning World!
+2017-04-24 20:11:12 ERROR LogTimerTask:35 - Series: 12 - Error World!
+	Multiline ..
+2017-04-24 20:11:12 INFO  LogTimerTask:29 - Series: 5 - Hello World!
+2017-04-24 20:11:12 WARN  LogTimerTask:32 - Series: 15 - Waning World!
+2017-04-24 20:11:13 WARN  LogTimerTask:32 - Series: 16 - Waning World!
+2017-04-24 20:11:13 ERROR LogTimerTask:35 - Series: 13 - Error World!
+	Multiline ..
+2017-04-24 20:11:14 WARN  LogTimerTask:32 - Series: 17 - Waning World!
+2017-04-24 20:11:14 ERROR LogTimerTask:35 - Series: 14 - Error World!
+	Multiline ..
+2017-04-24 20:11:15 WARN  LogTimerTask:32 - Series: 18 - Waning World!
+2017-04-24 20:11:15 INFO  LogTimerTask:29 - Series: 6 - Hello World!
+2017-04-24 20:11:16 ERROR LogTimerTask:35 - Series: 15 - Error World!
+	Multiline ..
+2017-04-24 20:11:16 WARN  LogTimerTask:32 - Series: 19 - Waning World!
+2017-04-24 20:11:17 ERROR LogTimerTask:35 - Series: 16 - Error World!
+	Multiline ..
+2017-04-24 20:11:17 WARN  LogTimerTask:32 - Series: 20 - Waning World!
+2017-04-24 20:11:18 ERROR LogTimerTask:35 - Series: 17 - Error World!
+	Multiline ..
+2017-04-24 20:11:18 INFO  LogTimerTask:29 - Series: 7 - Hello World!
+2017-04-24 20:11:18 WARN  LogTimerTask:32 - Series: 21 - Waning World!
+2017-04-24 20:11:19 WARN  LogTimerTask:32 - Series: 22 - Waning World!
+2017-04-24 20:11:19 ERROR LogTimerTask:35 - Series: 18 - Error World!
+	Multiline ..
+2017-04-24 20:11:20 WARN  LogTimerTask:32 - Series: 23 - Waning World!
+2017-04-24 20:11:21 ERROR LogTimerTask:35 - Series: 19 - Error World!
+	Multiline ..
+2017-04-24 20:11:21 WARN  LogTimerTask:32 - Series: 24 - Waning World!
+2017-04-24 20:11:21 INFO  LogTimerTask:29 - Series: 8 - Hello World!
+2017-04-24 20:11:22 ERROR LogTimerTask:35 - Series: 20 - Error World!
+	Multiline ..
+2017-04-24 20:11:22 WARN  LogTimerTask:32 - Series: 25 - Waning World!
+2017-04-24 20:11:23 ERROR LogTimerTask:35 - Series: 21 - Error World!
+	Multiline ..
+2017-04-24 20:11:23 WARN  LogTimerTask:32 - Series: 26 - Waning World!
+2017-04-24 20:11:24 WARN  LogTimerTask:32 - Series: 27 - Waning World!
+2017-04-24 20:11:24 INFO  LogTimerTask:29 - Series: 9 - Hello World!
+2017-04-24 20:11:24 ERROR LogTimerTask:35 - Series: 22 - Error World!
+	Multiline ..
+2017-04-24 20:11:25 WARN  LogTimerTask:32 - Series: 28 - Waning World!
+2017-04-24 20:11:26 ERROR LogTimerTask:35 - Series: 23 - Error World!
+	Multiline ..
+2017-04-24 20:11:26 WARN  LogTimerTask:32 - Series: 29 - Waning World!
+2017-04-24 20:11:27 ERROR LogTimerTask:35 - Series: 24 - Error World!
+	Multiline ..
+2017-04-24 20:11:27 WARN  LogTimerTask:32 - Series: 30 - Waning World!
+2017-04-24 20:11:27 INFO  LogTimerTask:29 - Series: 10 - Hello World!
+2017-04-24 20:11:28 ERROR LogTimerTask:35 - Series: 25 - Error World!
+	Multiline ..
+2017-04-24 20:11:28 WARN  LogTimerTask:32 - Series: 31 - Waning World!
+2017-04-24 20:11:29 WARN  LogTimerTask:32 - Series: 32 - Waning World!
+2017-04-24 20:11:29 ERROR LogTimerTask:35 - Series: 26 - Error World!
+	Multiline ..
