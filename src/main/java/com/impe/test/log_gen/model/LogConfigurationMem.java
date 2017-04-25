@@ -14,11 +14,5 @@ public class LogConfigurationMem implements LogConfiguration {
 	public void setLogGens(List<LogGen> logGens) {
 		this.logGens = logGens;
 	}
-
-//	public LogConfigurationMem(List<LogGen> logGens) {
-//		super();
-//		this.logGens = logGens;
-//	}
-
 	
 }

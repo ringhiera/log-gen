@@ -7,7 +7,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import com.impe.test.log_gen.model.LogConfiguration;
-import com.impe.test.log_gen.model.LogConfigurationManager;
 import com.impe.test.log_gen.model.LogGen;
 
 @Component("logScheduler")
@@ -17,7 +16,7 @@ public class LogScheduler {
 	private Timer uploadCheckerTimer;
 
 	public void setUp(final LogConfiguration logConfiguration) {
-		LOG.info("\n\nInitializing Timers\n\n");
+		LOG.debug("\n\nInitializing Timers\n\n");
 		// Terminate any prevous activity if any
 		if (null != uploadCheckerTimer)
 			this.tearDown();
@@ -31,7 +30,7 @@ public class LogScheduler {
 	}
 
 	public void tearDown() {
-		LOG.info("\n\nTeardown Scheduler\n\n");
+		LOG.debug("\n\nTeardown Scheduler\n\n");
 		uploadCheckerTimer.cancel();
 		uploadCheckerTimer.purge();
 	}

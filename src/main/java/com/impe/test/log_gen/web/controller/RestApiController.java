@@ -1,5 +1,8 @@
 package com.impe.test.log_gen.web.controller;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +16,7 @@ import com.impe.test.log_gen.model.LogConfiguration;
 import com.impe.test.log_gen.model.LogConfigurationManager;
 import com.impe.test.log_gen.model.LogConfigurationMem;
 
+@Api(value = "/config")
 @RestController
 public class RestApiController {
 
@@ -21,13 +25,15 @@ public class RestApiController {
 	@Autowired 
 	LogScheduler logScheduler;
 	
-	@RequestMapping(value = "/config", method = RequestMethod.POST)
+	@ApiOperation(value = "PostConfig")
+	@RequestMapping(value = "/config", method = RequestMethod.POST, produces = "application/json; charset=utf-8")
 	public ResponseEntity<LogConfigurationMem> setConfig(@RequestBody LogConfigurationMem logConfiguration) {
 		logConfigurationManager.setLogConfiguration(logConfiguration);
 		return new ResponseEntity<>(logConfiguration, HttpStatus.OK);
 	}
 
-	@RequestMapping(value = "/config", method = RequestMethod.GET)
+	@ApiOperation(value = "GetConfig")
+	@RequestMapping(value = "/config", method = RequestMethod.GET, produces = "application/json; charset=utf-8")
 	public LogConfiguration getConfig() {
 		return logConfigurationManager.getLogConfiguration();
 

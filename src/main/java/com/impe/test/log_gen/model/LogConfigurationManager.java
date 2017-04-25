@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import com.impe.test.log_gen.core.LogScheduler;
-import com.impe.test.log_gen.core.LogTimerTask;
 
 @Component
 public class LogConfigurationManager {
@@ -20,12 +19,12 @@ public class LogConfigurationManager {
 	private LogConfiguration logConfiguration = new LogConfigurationHardcoded();
 	
 	public LogConfiguration getLogConfiguration(){
-		LOG.info("getLogConfiguration");
+		LOG.debug("getLogConfiguration");
 		return logConfiguration;
 	}
 
 	public void setLogConfiguration(LogConfiguration logConfiguration) {
-		LOG.info("Set Log Configuration");
+		LOG.debug("Set Log Configuration");
 		logScheduler.setUp(logConfiguration);
 		this.logConfiguration = logConfiguration;
 	}

@@ -5,4 +5,5 @@ import java.util.List;
 public interface LogConfiguration {
 
 	public abstract List<LogGen> getLogGens();
+	public abstract void setLogGens(List<LogGen> logGens);
 }
