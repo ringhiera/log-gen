@@ -2,12 +2,14 @@ package com.impe.test.log_gen.model;
 
 public class LogGen {
 
-	private final String logbody;
-	private final String severity; // use enumerable instead
-	private final long delay;
-	private final long period;
+	private String logbody;
+	private String severity; // use enumerable instead
+	private long delay;
+	private long period;
 	
-	
+
+	public LogGen() {
+	}
 	public LogGen(String logbody, String severity, long delay, long period) {
 		super();
 		this.logbody = logbody;
@@ -26,6 +28,18 @@ public class LogGen {
 	}
 	public long getPeriod() {
 		return period;
+	}
+	public void setLogbody(String logbody) {
+		this.logbody = logbody;
+	}
+	public void setSeverity(String severity) {
+		this.severity = severity;
+	}
+	public void setDelay(long delay) {
+		this.delay = delay;
+	}
+	public void setPeriod(long period) {
+		this.period = period;
 	}
 
 	

@@ -12,7 +12,7 @@ public class LogConfigurationHardcoded implements LogConfiguration {
 		return logGens;
 	}
 
-	LogConfigurationHardcoded(){
+	public LogConfigurationHardcoded(){
 		logGens = new ArrayList<>();
 		logGens.add(new LogGen("Hello World!", "INFO", 0L, 3000L));
 		logGens.add(new LogGen("Waning World!", "WARN", 0L, 1000L));

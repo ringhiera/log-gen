@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import com.impe.test.log_gen.core.LogScheduler;
 import com.impe.test.log_gen.core.LogTimerTask;
-import com.impe.test.log_gen.model.LogConfigurationDao;
+import com.impe.test.log_gen.model.LogConfigurationManager;
 
 /**
  * Hello world!
@@ -19,7 +19,7 @@ public class App {
 	private static Logger LOG = LoggerFactory.getLogger(LogTimerTask.class);
 
 	@Autowired
-	private LogConfigurationDao logConfigurationDao;
+	private LogConfigurationManager logConfigurationDao;
 	@Autowired
 	private LogScheduler logScheduler;
 
